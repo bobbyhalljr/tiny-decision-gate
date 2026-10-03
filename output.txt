@@ -1,0 +1,10 @@
+
+STATE  Checkout has been failing for every customer for the last hour. Please refund order 4412.
+urgent   noul    yes 0.88           act  urgent 0.88 clears 0.80
+team     choice  technical 0.67     act  technical 0.67 clears 0.60
+refund   noul    yes 0.50           ask  money stays with a human
+
+STATE  Love the new checkout page. Can someone send me the enterprise plan?
+urgent   noul    yes 0.27           skip urgent 0.27 stays under 0.80
+team     choice  sales 0.58         ask  sales 0.58 is too close to call
+refund   noul    yes 0.27           skip no refund was asked
